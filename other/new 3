@@ -1,0 +1,10 @@
+
+              console.log(x);
+             $.ajax({
+                    url: 'admin_edit.php',
+                    method: 'post',
+                    data: x,
+                    success: function(data) {
+                        console.log("success");
+                    }
+                });
